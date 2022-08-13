@@ -5,6 +5,30 @@
       "email": "demo@demo",
       "password": "demo",
       "id": "1"
+    },
+    {
+      "name": "el",
+      "email": "el@xmpl.ru",
+      "password": "123456",
+      "id": "2mt4x29cl6jfo7ci"
+    },
+    {
+      "name": "elena",
+      "email": "elena1@example.com",
+      "password": "123456",
+      "id": "2mt4xbggl6jgvq9r"
+    },
+    {
+      "name": "elena",
+      "email": "elena@example.com",
+      "password": "123456",
+      "id": "2mt4x908l6mauwnr"
+    },
+    {
+      "name": "xxx",
+      "email": "xmpl@xmpl.ru",
+      "password": "12345678",
+      "id": "2mt4x9z8l6qi2mt8"
     }
   ],
   "accounts": [
@@ -22,6 +46,11 @@
       "name": "Бизнес",
       "user_id": "1",
       "id": "3"
+    },
+    {
+      "name": "Payoneer",
+      "user_id": "2mt4x29cl6jfo7ci",
+      "id": "2mt4xhawl6rwtcoq"
     }
   ],
   "transactions": [
@@ -159,6 +188,33 @@
       "sum": 300000,
       "type": "expense",
       "user_id": "1"
+    },
+    {
+      "id": "2mt4xfqwl6rwtnfx",
+      "type": "income",
+      "name": "Salary",
+      "sum": 45000,
+      "account_id": "2mt4xhawl6rwtcoq",
+      "user_id": "2mt4x29cl6jfo7ci",
+      "created_at": "2022-08-13T13:04:17.900Z"
+    },
+    {
+      "id": "2mt4xf9gl6rwvv34",
+      "type": "income",
+      "name": "Appen",
+      "sum": 20000,
+      "account_id": "2mt4xhawl6rwtcoq",
+      "user_id": "2mt4x29cl6jfo7ci",
+      "created_at": "2022-08-13T13:06:01.119Z"
+    },
+    {
+      "id": "2mt4x4hgl6rwwdf2",
+      "type": "expense",
+      "name": "На еду",
+      "sum": 5000,
+      "account_id": "2mt4xhawl6rwtcoq",
+      "user_id": "2mt4x29cl6jfo7ci",
+      "created_at": "2022-08-13T13:06:24.877Z"
     }
   ]
 }
